@@ -1,9 +1,12 @@
 [jQuery](https://jquery.com/) — New Wave JavaScript
 ==================================================
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjquery%2Fjquery.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjquery%2Fjquery?ref=badge_shield)
+You'll find here mods for **l3dlp labs**.
+Original is [![here](https://github.com/jquery/jquery)]
 
-[![Gitter](https://badges.gitter.im/jquery/jquery.svg)](https://gitter.im/jquery/jquery?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+
+
 
 Contribution Guides
 --------------------------------------
@@ -42,7 +45,7 @@ How to build your own jQuery
 Clone a copy of the main jQuery git repo by running:
 
 ```bash
-git clone git://github.com/jquery/jquery.git
+git clone git://github.com/l3dlp-sandbox/jquery.git
 ```
 
 Enter the jquery directory and run the build script:
@@ -103,7 +106,7 @@ Some example modules that can be excluded are:
 
 As a special case, you may also replace Sizzle by using a special flag `grunt custom:-sizzle`.
 
-- **sizzle**: The Sizzle selector engine. When this module is excluded, it is replaced by a rudimentary selector engine based on the browser's `querySelectorAll` method that does not support jQuery selector extensions or enhanced semantics. See the [selector-native.js](https://github.com/jquery/jquery/blob/master/src/selector-native.js) file for details.
+- **sizzle**: The Sizzle selector engine. When this module is excluded, it is replaced by a rudimentary selector engine based on the browser's `querySelectorAll` method that does not support jQuery selector extensions or enhanced semantics. See the [selector-native.js](https://github.com/l3dlp-sandbox/jquery/blob/master/src/selector-native.js) file for details.
 
 *Note*: Excluding Sizzle will also exclude all jQuery selector extensions (such as `effects/animatedSelector` and `css/hiddenVisibleSelectors`).
 
@@ -281,7 +284,7 @@ throws( block, [expected], [message] );
 ```
 
 
-Test Suite Convenience Methods Reference (See [test/data/testinit.js](https://github.com/jquery/jquery/blob/master/test/data/testinit.js))
+Test Suite Convenience Methods Reference (See [test/data/testinit.js](https://github.com/l3dlp-sandbox/jquery/blob/master/test/data/testinit.js))
 ------------------------------
 
 ### Returns an array of elements with the given IDs ###
